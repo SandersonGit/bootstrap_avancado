@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <style>
+        .card-img-overlay {
+            background-color: rgba(0, 0, 0, .5);
+        }
+    </style>
+</head>
+<body>
+    <h1>Cards - Bootstrap</h1>
+
+    <div class="container">
+        <div class="row">
+            <!-- Esse código HTML representa um card Bootstrap dentro de uma coluna Bootstrap de tamanho 4 (`.col-4`). Vamos analisar cada parte do código:
+
+1. `<div class="col-4">`: Esta é uma coluna do Bootstrap que ocupa 1/3 (4 de 12) do espaço disponível em telas grandes. É usada para organizar o conteúdo em um layout responsivo.
+
+2. `<article class="card">`: Este é o elemento `article` com a classe `card`. No Bootstrap, o `card` é um componente usado para representar uma caixa contendo informações relacionadas.
+
+3. `<header class="card-header">`: O cabeçalho do card. Nele, há o título "Desenvolvimento Web". Este pode ser um título relacionado ao conteúdo do card.
+
+4. `<img src="...">`: Uma imagem dentro do card. Neste caso, é uma imagem relacionada ao desenvolvimento web. A propriedade `alt` fornece um texto alternativo para acessibilidade.
+
+5. `<div class="card-body">`: O corpo do card que contém o conteúdo principal. Dentro dele, há:
+   - `<h4 class="card-title">`: Um título de nível 4 para o card, "Cards Bootstrap" neste caso.
+   - `<p class="card-text">`: Um parágrafo de texto que descreve brevemente o conteúdo do card.
+   - `<a href="#" class="btn btn-primary">Leia Mais</a>`: Um botão de link (botão de ação) com o texto "Leia Mais" e a classe `btn-primary` para estilização usando o Bootstrap.
+
+6. `<footer class="card-footer">`: O rodapé do card que contém informações adicionais. Dentro dele, há:
+   - Texto "postado em" e `<time> 18/01/2024 </time>`. O elemento `<time>` é usado para representar datas ou horários de maneira semântica.
+
+Em resumo, o código cria um card Bootstrap representando informações relacionadas ao desenvolvimento web, com um título, imagem, conteúdo, um botão "Leia Mais" e informações de rodapé, incluindo a data de postagem. Este tipo de estrutura é frequentemente usado em páginas da web para organizar e exibir informações de maneira estruturada e estilizada. -->
+            <div class="col-4">
+                <article class="card">  
+                    <header class="card-header">
+                        Desenvolvimento Web
+                    </header>
+                    <img src="https://media.istockphoto.com/id/476515292/pt/foto/dinheiro-e-o-scrabble-palavras.webp?s=2048x2048&w=is&k=20&c=fKYhHI4B_h3SfS2NiHg4J66I53w0O4WZ1UpFHwY1qCk=" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Cards Bootstrap</h4>
+                        <p class="card-text">
+                            Conheça os cards do Bootstrap e sua variações.
+                        </p>
+                        <a href="#" class="btn btn-primary">Leia Mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        postado em <time> 18/01/2024</time>
+                    </footer>
+                </article>
+            </div>
+
+            <!-- Este código HTML cria um card Bootstrap dentro de uma coluna Bootstrap de tamanho 4 (`.col-4`). Vamos analisar cada parte do código:
+
+1. `<div class="col-4">`: Esta é uma coluna do Bootstrap que ocupa 1/3 (4 de 12) do espaço disponível em telas grandes. Ela é usada para organizar o conteúdo em um layout responsivo.
+
+2. `<div class="card text-bg-dark">`: Este é o elemento `div` com a classe `card` e uma classe adicional `text-bg-dark`. A classe `text-bg-dark` parece ser uma classe personalizada que pode definir o estilo de texto dentro do card para ter um fundo escuro.
+
+3. `<div class="card-header">`: O cabeçalho do card. Nele, há o texto "cabeçalho do header". Este pode ser um título relacionado ao conteúdo do card.
+
+4. `<img src="...">`: Uma imagem dentro do card. Neste caso, é uma imagem relacionada a dinheiro e palavras. A propriedade `alt` fornece um texto alternativo para acessibilidade.
+
+5. `<div class="card-body">`: O corpo do card que contém o conteúdo principal. Dentro dele, há:
+   - `<h4 class="card-title">`: Um título de nível 4 para o card, "Titulo do card" neste caso.
+   - `<p class="card-text">`: Um parágrafo de texto que descreve o conteúdo do card, usando o famoso texto de exemplo "Lorem ipsum".
+   - `<a href="#" class="btn btn-primary">Botão card</a>`: Um botão de link (botão de ação) com o texto "Botão card" e a classe `btn-primary` para estilização usando o Bootstrap.
+
+Em resumo, o código cria um card Bootstrap representando informações com um cabeçalho, uma imagem, um título, um parágrafo de texto e um botão. A classe `text-bg-dark` sugere que o texto dentro do card pode ter um fundo escuro, mas isso dependerá das definições de estilo específicas fornecidas por essa classe personalizada, que não está definida no código fornecido. Este tipo de estrutura é frequentemente usado em páginas da web para organizar e exibir informações de maneira estruturada e estilizada. -->
+            <div class="col-4">
+                <div class="card text-bg-dark">  
+                    <div class="card-header">
+                        cabeçalho do header
+                    </div>
+                    <img src="https://media.istockphoto.com/id/476515292/pt/foto/dinheiro-e-o-scrabble-palavras.webp?s=2048x2048&w=is&k=20&c=fKYhHI4B_h3SfS2NiHg4J66I53w0O4WZ1UpFHwY1qCk=" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Titulo do card</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas aspernatur adipisci quae nihil qui aut dolorem voluptatum maxime nesciunt? Quam veniam consequatur id, voluptas sequi cum animi ad quo enim.</p>
+                        <a href="#" class="btn btn-primary">Botão card</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Este código HTML cria um card Bootstrap dentro de uma coluna Bootstrap de tamanho 4 (`.col-4`). Vamos analisar cada parte do código:
+
+1. `<div class="col-4">`: Esta é uma coluna do Bootstrap que ocupa 1/3 (4 de 12) do espaço disponível em telas grandes. Ela é usada para organizar o conteúdo em um layout responsivo.
+
+2. `<div class="card text-bg-dark">`: Este é o elemento `div` com a classe `card` e uma classe adicional `text-bg-dark`. A classe `text-bg-dark` parece ser uma classe personalizada que pode definir o estilo de texto dentro do card para ter um fundo escuro.
+
+3. `<img src="https://cdn.pixabay.com/photo/2017/06/29/19/58/said-2455984_1280.jpg" alt="">`: Uma imagem dentro do card, proveniente de uma URL específica. A propriedade `alt` fornece um texto alternativo para acessibilidade.
+
+4. `<div class="card-img-overlay">`: Uma sobreposição sobre a imagem. O conteúdo dentro deste elemento aparecerá sobre a imagem de fundo.
+
+5. `<h4 class="card-title">`: Um título de nível 4 para o card, "Titulo do card" neste caso.
+
+6. `<p class="card-text">`: Um parágrafo de texto que descreve o conteúdo do card, usando o famoso texto de exemplo "Lorem ipsum".
+
+7. `<a href="#" class="btn btn-primary">Botão card</a>`: Um botão de link (botão de ação) com o texto "Botão card" e a classe `btn-primary` para estilização usando o Bootstrap.
+
+Em resumo, o código cria um card Bootstrap com uma imagem de fundo, um título, um parágrafo de texto e um botão. A classe `text-bg-dark` sugere que o texto dentro do card pode ter um fundo escuro, mas isso dependerá das definições de estilo específicas fornecidas por essa classe personalizada, que não está definida no código fornecido. Este tipo de estrutura é frequentemente usado em páginas da web para organizar e exibir informações de maneira estruturada e estilizada. A sobreposição da imagem com o texto proporciona uma aparência interessante ao card. -->
+            <div class="col-4">
+                <div class="card text-bg-dark">  
+                    
+                    <img src="https://cdn.pixabay.com/photo/2017/06/29/19/58/said-2455984_1280.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Titulo do card</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="#" class="btn btn-primary">Botão card</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="container ">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header ">
+                        <h1>Layout Bootstrap</h1>
+                    </div>
+                    <card-body>
+                        <h3>Passo a Passo</h3>
+                        <p>
+                            Criação da Linha:
+Uma linha no Bootstrap é criada utilizando a classe row. Essa classe é usada para agrupar colunas horizontalmente. <br>
+
+Adição de Colunas:
+Dentro de uma linha, você adiciona colunas utilizando classes específicas de coluna (col-), onde o tamanho da coluna pode variar de col-1 até col-12 (12 é o número máximo de colunas em uma linha). <br>
+
+Soma de 12 Colunas:
+
+                            A soma das classes de coluna em uma linha deve ser igual a 12 para ocupar todo o espaço disponível. No exemplo acima, cada coluna possui col-6, somando 6 + 6 = 12.
+                        </p>
+                    </card-body>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
