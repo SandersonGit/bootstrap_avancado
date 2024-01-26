@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+</head>
+<body>
+    
+    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exemplo">
+        Abrir Modal
+    </button>
+    <div class="modal" id="exemplo" data-bs-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Título Modal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa provident minus laboriosam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore vitae fugiat sunt explicabo, sapiente earum magni cumque adipisci ullam exercitationem ducimus pariatur blanditiis reiciendis vero, tenetur omnis optio facilis cum!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" data-bs-dismiss="modal" class="btn btn-danger">Cancelar</button>
+                    <button type="button" data-bs-dismiss="modal" class="btn btn-success">Comfirmar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
